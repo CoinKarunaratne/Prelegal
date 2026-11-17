@@ -1,0 +1,40 @@
+License for the contents of this directory
+==========================================
+
+All legal agreement templates in this "templates" directory are the work of
+Common Paper, Inc. (https://commonpaper.com) and are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+  License summary: https://creativecommons.org/licenses/by/4.0/
+  Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Source: the templates were copied without modification from Common Paper's
+public GitHub repositories (https://github.com/CommonPaper):
+
+  AI-Addendum.md                 https://github.com/CommonPaper/AI-Addendum
+  BAA.md                         https://github.com/CommonPaper/BAA
+  CSA.md                         https://github.com/CommonPaper/CSA
+  DPA.md                         https://github.com/CommonPaper/DPA
+  Design-Partner-Agreement.md    https://github.com/CommonPaper/Design-Partner-Agreement
+                                 (originally design-partner-agreement.md)
+  Mutual-NDA.md                  https://github.com/CommonPaper/Mutual-NDA
+  Mutual-NDA-Cover-Page.md       https://github.com/CommonPaper/Mutual-NDA
+                                 (originally Mutual-NDA-coverpage.md)
+  Partnership-Agreement.md       https://github.com/CommonPaper/Partnership-Agreement
+  Pilot-Agreement.md             https://github.com/CommonPaper/Pilot-Agreement
+  PSA.md                         https://github.com/CommonPaper/PSA
+                                 (originally psa.md)
+  SLA.md                         https://github.com/CommonPaper/SLA
+                                 (originally sla.md)
+  Software-License-Agreement.md  https://github.com/CommonPaper/Software-License-Agreement
+
+Only the file names listed above were changed. The contents are as published.
+
+Attribution: "Common Paper standard agreements by Common Paper, Inc., licensed
+under CC BY 4.0." Any modified versions of these templates that Prelegal
+creates or produces for users must keep this attribution and state that
+changes were made, as CC BY 4.0 requires.
+
+This license applies only to the files in this directory. It does not cover
+the rest of the Prelegal project, which is under the license in the project
+root.
