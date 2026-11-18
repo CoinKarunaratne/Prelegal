@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-source-serif), Georgia, serif;
+}
+
+body {
+  @apply bg-stone-100 font-sans text-stone-900;
+}
+
+/* The NDA preview: styled like a printed legal document. */
+@layer components {
+  .nda-doc {
+    @apply font-serif text-[15px] leading-relaxed text-stone-900;
+
+    /* Template headings are shifted down a level (# → h2) in the preview. */
+    & h2 {
+      @apply mb-6 text-center text-2xl font-bold sm:text-3xl;
+    }
+    & h3 {
+      @apply mt-6 mb-3 text-sm font-bold tracking-wider;
+    }
+    & h4 {
+      @apply mt-6 mb-1 text-base font-bold;
+    }
+    & p {
+      @apply my-2;
+    }
+    & a {
+      @apply text-teal-800 underline decoration-teal-800/30 underline-offset-2 hover:decoration-teal-800;
+    }
+    & ol {
+      @apply my-4 list-decimal space-y-3 pl-6;
+    }
+    & ol > li {
+      @apply pl-1 sm:text-justify;
+    }
+    & ol > li > p {
+      @apply my-0;
+    }
+
+    & .task-list {
+      @apply my-2 space-y-2;
+    }
+    & .task-list > li {
+      @apply flex items-start gap-3;
+    }
+    & .task-list p {
+      @apply my-0;
+    }
+    & .task-list > li[data-checked="false"] {
+      @apply text-stone-500;
+    }
+    & .checkbox {
+      @apply mt-[5px] inline-flex size-4 shrink-0 items-center justify-center border border-stone-800 font-sans text-[11px] leading-none font-bold;
+    }
+
+    & .hint {
+      @apply block font-sans text-xs font-normal text-stone-500;
+    }
+    & .term {
+      @apply font-semibold;
+    }
+
+    & .field {
+      @apply rounded-sm bg-amber-100 px-0.5 font-semibold whitespace-pre-wrap text-stone-900 [box-decoration-break:clone];
+    }
+    & .field-empty {
+      @apply bg-amber-50 font-normal text-amber-800 italic ring-1 ring-amber-300 ring-inset;
+    }
+
+    & .table-wrap {
+      @apply my-6 overflow-x-auto;
+    }
+    & table {
+      @apply w-full border-collapse text-sm;
+    }
+    & th,
+    & td {
+      @apply border border-stone-300 px-3 py-2 text-left align-top;
+    }
+    & thead th {
+      @apply bg-stone-100 text-center;
+    }
+    & tbody th {
+      @apply w-[28%] font-semibold;
+    }
+    & td {
+      @apply h-11;
+    }
+  }
+}
